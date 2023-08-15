@@ -1,11 +1,10 @@
-import Header from "../../components/header";
-
+import styles from './home.module.css'
 
 const Home = () => {
     return (
-        <>
-            <Header/>   
-        </>
+        <main className={styles.homeContainer}>
+        <h2>USD</h2>
+        </main>
     );
 }
 

@@ -1,15 +1,16 @@
-import Home from "./pages/home"
+import { BrowserRouter as Router } from 'react-router-dom';
+import AppRoutes from './routes';
+import MainLayout from './layout';
 
 
 function App() {
 
-
   return (
-    <>
-    <Home/>
-    
-    
-    </>
+    <Router>
+      <MainLayout>
+        <AppRoutes/>
+      </MainLayout>
+    </Router>
   )
 }
 

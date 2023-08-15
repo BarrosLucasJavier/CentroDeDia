@@ -1,10 +1,19 @@
-
-
+import styles from './footer.module.css'
+import grass from '../../assets/images/grass.png'
+import facebook from '../../assets/images/icons/facebook.png'
+import instagram from '../../assets/images/icons/instagram.png'
+import whatsapp from '../../assets/images/icons/whatsapp.png'
 const Footer = () => {
     return (
-        <footer>
-            <span>Lun a Vie de 8 a 14 hs</span>
-            <span>Entre Ríos 450</span>
+        <footer className={styles.footerContainer}>
+            <img className={styles.grass} src={grass} alt='Cesped'/>
+            <p>Lun a Vie de 8 a 14 hs</p>
+            <div className={styles.iconsContainer}>
+                <img src={facebook} alt='Facebook'/>
+                <img src={instagram} alt='Instagram'/>
+                <img src={whatsapp} alt='Whatsapp'/>
+            </div>
+            <p>Entre Ríos 450 - Bº Otaño</p>
         </footer>
     );
 }

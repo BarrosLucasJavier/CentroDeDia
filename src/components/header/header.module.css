@@ -1,11 +1,15 @@
 .headerContainer{
     padding: 1rem;
-    position: relative;
+    height: 100px;
+    grid-area: header;
 }
 .headerContainer h1, .headerContainer h2{
     font-family: var(--tituloFuente);
     color: var(--violeta);
     text-shadow: -3px 3px 10px rgb(255, 255, 255);
+    font-size: 2rem;
+    margin-left: 3rem;
+    
 }
 .headerContainer img{
     position: absolute;
