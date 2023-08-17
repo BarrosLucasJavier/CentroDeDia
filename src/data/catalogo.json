@@ -1,9 +1,9 @@
 [
     {
-        "nombre":"Acomodando Colores",
-        "categoria":"Rompecabezas",
-        "descripcion":"Rompecabezas de ingenio: El juego consiste en acomodar las 7 piezas de tal modo que los colores coincidan",
-        "precio":1800,
+        "nombre":"Identifica los animales",
+        "categoria":"Asociación",
+        "descripcion":"Coloca los nombres de los animales",
+        "precio":0,
         "imagen": "product1.jpeg",
         "vendido":false
     },
@@ -18,17 +18,130 @@
     {
         "nombre":"Acomodando Colores",
         "categoria":"Rompecabezas",
-        "descripcion":"Rompecabezas de ingenio: El juego consiste en acomodar las 7 piezas de tal modo que los colores coincidan",
+        "descripcion":"El juego consiste en acomodar las 7 piezas de tal modo que los colores coincidan",
         "precio":1800,
         "imagen": "product3.jpeg",
         "vendido":false
     },
     {
-        "nombre":"Acomodando Colores",
+        "nombre":"Tangram clásico",
         "categoria":"Rompecabezas",
-        "descripcion":"Rompecabezas de ingenio: El juego consiste en acomodar las 7 piezas de tal modo que los colores coincidan",
-        "precio":1800,
+        "descripcion":"El tangram es un juego chino muy antiguo, que consiste en formar siluetas de figuras con las siete piezas dadas sin solaparlas",
+        "precio":800,
         "imagen": "product4.jpeg",
         "vendido":false
+    },
+    {
+        "nombre":"Busca Caminos Grande",
+        "categoria":"Juego",
+        "descripcion":"Consigue llevar la esfera hasta la parte superior sin que se caiga",
+        "precio":9000,
+        "imagen": "product5.jpeg",
+        "vendido":false
+    },
+    {
+        "nombre":"Mini Tejo",
+        "categoria":"Juego",
+        "descripcion":"Prueba tu velocidad y puntería lanzando el disco a la portería.",
+        "precio":4000,
+        "imagen": "product6.jpeg",
+        "vendido":false
+    },
+    {
+        "nombre":"Busca Caminos Mediano",
+        "categoria":"Juego",
+        "descripcion":"Consigue llevar la esfera hasta la parte superior sin que se caiga",
+        "precio":5000,
+        "imagen": "product7.jpeg",
+        "vendido":false
+    },
+    {
+        "nombre":"Croquet",
+        "categoria":"Juego",
+        "descripcion":"Diversion de desarrollo de habilidades: ¡croquet es un gran juego para mejorar la concentracion, la paciencia y la precision! ",
+        "precio":4000,
+        "imagen": "product8.jpeg",
+        "vendido":false
+    },
+    {
+        "nombre":"Ordenando Colores",
+        "categoria":"Rompecabezas",
+        "descripcion":"Diferentes tarjetas permiten a los niños observar los patrones y copiarlos",
+        "precio":2500,
+        "imagen": "product9.jpeg",
+        "vendido":false
+    },
+    {
+        "nombre":"Juego Encastre animales acuáticos",
+        "categoria":"Encastre",
+        "descripcion":"Coloca las piezas de animales acuáticos en su lugar.",
+        "precio":1200,
+        "imagen": "product11.jpeg",
+        "vendido":false
+    },
+    {
+        "nombre":"Rompecabezas de Mariposas",
+        "categoria":"Rompecabezas",
+        "descripcion":"Rompecabezas de 8 piezas de 15cm x 20cm",
+        "precio":800,
+        "imagen": "product12.jpeg",
+        "vendido":false
+    },
+    {
+        "nombre":"Ta Te Ti",
+        "categoria":"Juego",
+        "descripcion":"Color Violeta y verde, con fichas en forma de vaquitas de San Antonio",
+        "precio":1000,
+        "imagen": "product13.jpeg",
+        "vendido":false
+    },
+    {
+        "nombre":"Rompecabezas de Globos",
+        "categoria":"Rompecabezas",
+        "descripcion":"Rompecabezas de 9 piezas de 27cm x 25cm",
+        "precio":1200,
+        "imagen": "product14.jpeg",
+        "vendido":false
+    },
+    {
+        "nombre":"Ta Te Ti",
+        "categoria":"Juego",
+        "descripcion":"Color Rosa y Azul, con fichas en forma de vaquitas de San Antonio",
+        "precio":1000,
+        "imagen": "product15.jpeg",
+        "vendido":false
+    },
+    {
+        "nombre":"Ta Te Ti",
+        "categoria":"Juego",
+        "descripcion":"Color Rojo y Verde, con fichas en forma de vaquitas de San Antonio",
+        "precio":1000,
+        "imagen": "product16.jpeg",
+        "vendido":false
+    },
+    {
+        "nombre":"Ta Te Ti",
+        "categoria":"Juego",
+        "descripcion":"Color Rojo y Naranja, con fichas en forma de vaquitas de San Antonio",
+        "precio":1000,
+        "imagen": "product17.jpeg",
+        "vendido":false
+    },
+    {
+        "nombre":"Aprendo El Abecedario",
+        "categoria":"Rompecabezas",
+        "descripcion":"Con este juego los más pequeños aprenderán a distinguir la grafía de cada letra, asociar letras a imágenes y a la vez ampliarán su vocabulario.",
+        "precio":2500,
+        "imagen": "product18.jpeg",
+        "vendido":false
+    },
+    {
+        "nombre":"Mapa Neuquén",
+        "categoria":"Rompecabezas",
+        "descripcion":"Rompecabezas con los departamentos como fichas encastrables",
+        "precio":0,
+        "imagen": "product19.jpeg",
+        "vendido":false
     }
+
 ]
