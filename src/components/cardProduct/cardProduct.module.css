@@ -1,0 +1,29 @@
+.cardContainer{
+    max-width: 350px;
+    background-color: var(--violeta);
+    padding: 0.5rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5rem;
+    border-radius: 8px;
+    box-shadow: -3px 3px 15px black;
+    margin-top: 1rem;
+}
+.cardContainer img{
+    width: 100%;
+    border-radius: 8px;
+    border: 4px solid var(--naranja);
+}
+.cardInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.7rem;
+}
+.cardInfo h3{
+    text-shadow: 3px 4px 7px black;
+    font-size: 1.4rem;
+}

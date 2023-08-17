@@ -1,0 +1,34 @@
+[
+    {
+        "nombre":"Acomodando Colores",
+        "categoria":"Rompecabezas",
+        "descripcion":"Rompecabezas de ingenio: El juego consiste en acomodar las 7 piezas de tal modo que los colores coincidan",
+        "precio":1800,
+        "imagen": "product1.jpeg",
+        "vendido":false
+    },
+    {
+        "nombre":"Auto Verde",
+        "categoria":"Estimulacion sensorial",
+        "descripcion":"Tablero con distintos dispositivos diseñados para estimular",
+        "precio":0,
+        "imagen": "product2.jpeg",
+        "vendido":false
+    },
+    {
+        "nombre":"Acomodando Colores",
+        "categoria":"Rompecabezas",
+        "descripcion":"Rompecabezas de ingenio: El juego consiste en acomodar las 7 piezas de tal modo que los colores coincidan",
+        "precio":1800,
+        "imagen": "product3.jpeg",
+        "vendido":false
+    },
+    {
+        "nombre":"Acomodando Colores",
+        "categoria":"Rompecabezas",
+        "descripcion":"Rompecabezas de ingenio: El juego consiste en acomodar las 7 piezas de tal modo que los colores coincidan",
+        "precio":1800,
+        "imagen": "product4.jpeg",
+        "vendido":false
+    }
+]

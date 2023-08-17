@@ -1,15 +1,18 @@
 import { BrowserRouter as Router } from 'react-router-dom';
 import AppRoutes from './routes';
 import MainLayout from './layout';
+import { ProductsProvider } from './context/products.context';
 
 
 function App() {
 
   return (
     <Router>
-      <MainLayout>
-        <AppRoutes/>
-      </MainLayout>
+      <ProductsProvider>
+        <MainLayout>
+          <AppRoutes/>
+        </MainLayout>
+      </ProductsProvider>
     </Router>
   )
 }

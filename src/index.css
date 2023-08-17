@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 :root {
   --violeta: #511f73;
   --verde: #26a699;
@@ -7,21 +7,21 @@
   --naranja: #f29727;
   --rojo: #f24c3d;
   --tituloFuente:'Barriecito', cursive;
-  --textFuente:'Borel', cursive;
+  --textFuente: 'Roboto', sans-serif;
 }
-
-body{
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body{
   font-family: var(--textFuente);
   background: linear-gradient(190deg, var(--naranja) 0%, var(--verde) 50%);
   background-repeat: no-repeat;
-  
 }
 #root{
   display: grid;
-  grid-template-rows: 100px auto 150px;
+  grid-template-rows: 100px auto 120px;
   grid-template-areas: 'header'
   'main'
   'footer';
