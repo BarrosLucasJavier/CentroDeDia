@@ -3,7 +3,7 @@
         "nombre":"Identifica los animales",
         "categoria":"Asociación",
         "descripcion":"Coloca los nombres de los animales",
-        "precio":0,
+        "precio":2000,
         "imagen": "product1.jpeg",
         "vendido":false
     },
@@ -11,7 +11,7 @@
         "nombre":"Auto Verde",
         "categoria":"Estimulacion sensorial",
         "descripcion":"Tablero con distintos dispositivos diseñados para estimular",
-        "precio":0,
+        "precio":4500,
         "imagen": "product2.jpeg",
         "vendido":false
     },
@@ -139,7 +139,7 @@
         "nombre":"Mapa Neuquén",
         "categoria":"Rompecabezas",
         "descripcion":"Rompecabezas con los departamentos como fichas encastrables",
-        "precio":0,
+        "precio":2500,
         "imagen": "product19.jpeg",
         "vendido":false
     }

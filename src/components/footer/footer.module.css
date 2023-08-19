@@ -7,34 +7,37 @@
     font-size: 1.1rem;
     background-color: rgba(0, 70, 105, .2);
     border-top:1px solid rgba(255, 255, 255, .2);
-    padding: 0.5rem;
-    position: relative;
+    color: white;
+    text-shadow: 0 2px 3px black;
 }
 .footerContainer p{
     margin: 0.5rem 0;
 }
 .iconsContainer{
+    font-size: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 50vw;
+    filter: drop-shadow(0 1px 2px black);
 }
-.iconsContainer img{
-    width: 35px;
-    height: 35px;
-    filter: drop-shadow(0 3px 5px white);
+.iconsContainer svg{
+    border-bottom: 3px solid rgba(255, 255, 255, 0);
+    transition: all 0.5s;
+    padding: 0.3rem;
+}
+.iconsContainer svg:hover{
     cursor: pointer;
+    border-bottom: 3px solid white;
 }
-.hongo{
-    position: absolute;
-    width: 100px;
-    left: 0;
-    filter: drop-shadow(0 3px 10px black);
+.iconsContainer a{
+    color: white;
 }
-.rana{
-    filter: drop-shadow(0 3px 10px black);
-    position: absolute;
-    width: 70px;
-    right: 8px;
-    bottom: 15px;
+@keyframes grow {
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
 }
