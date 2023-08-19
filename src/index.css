@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 :root {
   --violeta: #511f73;
@@ -6,7 +6,7 @@
   --amarillo: #f2be22;
   --naranja: #f29727;
   --rojo: #f24c3d;
-  --tituloFuente:'Barriecito', cursive;
+  --tituloFuente:'Acme', sans-serif;
   --textFuente: 'Roboto', sans-serif;
 }
 *{
@@ -16,8 +16,10 @@
 }
 body{
   font-family: var(--textFuente);
-  background: linear-gradient(190deg, var(--naranja) 0%, var(--verde) 50%);
+  background-image: url('./assets/images/saludMental.png');
   background-repeat: no-repeat;
+  background-position: 60%;
+  background-size: cover;
 }
 #root{
   display: grid;

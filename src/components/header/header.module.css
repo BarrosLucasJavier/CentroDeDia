@@ -1,47 +1,71 @@
 .headerContainer{
+    background-color: rgba(0, 70, 105, .2);
+    border-bottom:1px solid rgba(255, 255, 255, .2);
+    text-align: center;
+    color: white;
+    text-shadow: 0 1px 2px black;
+    display: flex;
+    flex-direction: column;
     padding: 1rem;
-    height: 100px;
-    grid-area: header;
+    position: relative;
+}
+.visibleHeader{
+    display: flex;
+    justify-content: space-between;
 }
 .headerContainer h1, .headerContainer h2{
     font-family: var(--tituloFuente);
-    color: var(--violeta);
-    text-shadow: -3px 3px 10px rgb(255, 255, 255);
-    font-size: 2rem;
-    margin-left: 3rem;
-    
 }
-.titleContainer{
+.barIcon, .xIcon{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.menuContainer{
+    margin-top: 0.7rem;
+    padding: 0.7rem;
+    border-bottom:1px solid rgba(255, 255, 255, .2);
+    background-color: rgba(0, 70, 105, .2);
+    animation: slideMenu 0.3s ease-in-out  1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: start;
-}
-.sol{
+    gap: 0.7rem;
     position: absolute;
-    top: 10px;
-    right: 10px;
-    width: 100px;
-    animation-name: radiante;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-direction:alternate;
-    animation-timing-function: ease-in-out;
+    width: 100%;
+    left: 0;
+    bottom: -156px; 
 }
-.mariposa{
-    position: absolute;
-    width: 100px;
-    left: 5px;
-    transform: rotate(15deg);
-    top: 55px;
+.menuContainer p{
+    cursor: pointer;
+    text-transform: uppercase;
 }
-@keyframes radiante {
+
+@keyframes slideMenu{
     from{
-        filter: drop-shadow( 0 0 10px rgb(229, 255, 0));
-        transform: scale(1);
+        transform: translate(-105%);
     }
     to{
-        filter: drop-shadow( 0 0 10px rgb(250, 255, 209));
-        transform: scale(0.9);
+        transform: translate(0px);
+    }
+}
+@media (min-width:700px){
+    .headerContainer{
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .barIcon, .xIcon{
+        display: none;
+    }
+    .menuContainer{
+        margin-top: 0;
+        border-bottom:none;
+        background-color: transparent;
+        animation: none;
+        flex-direction: row;
+        position: static;
+        width: auto;
+        margin-right: 1rem;
+        gap: 1.5rem;
     }
 }
