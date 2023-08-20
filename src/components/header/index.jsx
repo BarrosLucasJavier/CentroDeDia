@@ -10,12 +10,15 @@ const Header = () => {
     const navigate = useNavigate();
 
     const handleHome = () => {
+        setShowMenu(!showMenu)
         navigate("/")
     }
     const handleCatalogo = () => {
+        setShowMenu(!showMenu)
         navigate("/catalogo")
     }
     const handleNosotros = () => {
+        setShowMenu(!showMenu)
         navigate("/nosotros")
     }
 
