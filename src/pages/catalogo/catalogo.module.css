@@ -1,0 +1,46 @@
+.catalogoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: var(--verde);
+}
+.catalogoContainer h1{
+    color: white;
+    font-family: var(--tituloFuente);
+    text-shadow: 0 3px 3px black;
+}
+.catalogoContainer img{
+    filter: drop-shadow(0 2px 5px black);
+}
+.mariposa{
+    width: 55px;
+    transform: rotate(55deg);
+}
+.infoContainer{
+    padding: 1rem;
+    color: white;
+    text-shadow: 0 2px 2px black;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--naranja);
+    border-radius: 16px;
+    box-shadow: 0 3px 15px black;
+}
+.sol{
+    width: 150px;
+    animation: rotar 2s ease-in-out infinite alternate;
+    
+}
+@keyframes rotar {
+    from{
+        transform: rotate(-15deg);
+    }
+    to{
+        transform: rotate(15deg);
+    }
+}
