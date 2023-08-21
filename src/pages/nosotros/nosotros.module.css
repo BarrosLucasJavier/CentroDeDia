@@ -1,0 +1,28 @@
+.nosotrosContainer{
+    padding: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.nosotrosContainer h2{
+    margin: 1rem 0;
+    color: white;
+    font-size: 1.8rem;
+    text-shadow: 0 3px 3px black;
+    font-family: var(--tituloFuente);
+}
+
+.infoContainer{
+    width: 346px;
+    background-color: rgba(69, 4, 138, 0.787);
+    color: white;
+    text-align: justify;
+    border: 3px solid rgb(62, 62, 62);
+}
+.infoContainer img{
+    width: 100%;
+}
+.textInfo{
+    padding: 0.7rem;
+}

@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
 
-    const [showMenu, setShowMenu] = useState(false);
+    const [showMenu, setShowMenu] = useState(window.matchMedia("(min-width: 700px)").matches);
     const navigate = useNavigate();
 
     const handleHome = () => {
