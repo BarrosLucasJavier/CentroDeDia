@@ -43,7 +43,7 @@
     align-items: center;
 }
 .modal img{
-    height: 90vh;
+    width: 90%;
 }
 .closeModal{
     position: absolute;
@@ -51,4 +51,10 @@
     z-index: 199;
     font-size: 2rem;
     cursor: pointer;
+}
+@media (min-width:1200px){
+    .modal img{
+        height: 90vh;
+        width: auto;
+    }
 }

@@ -7,7 +7,7 @@ import sol from '../../assets/images/sol.png';
 const CatalogoPage = () => {
     return (
         <main className={styles.catalogoContainer}>
-            <h1><img className={styles.mariposa} src={mariposa}/>Juegos Didácticos La Novena</h1>
+            <h1>Juegos Didácticos<img className={styles.mariposa} src={mariposa}/><br/>La Novena</h1>
             <img src={hongo}/>
             <div className={styles.infoContainer}>
                 <p>Los juguete son creados por los usuarios del centro, en madera.</p>

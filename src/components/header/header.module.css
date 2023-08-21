@@ -36,6 +36,9 @@
     bottom: -156px; 
     z-index: 99;
 }
+.disable{
+    display: none;
+}
 .menuContainer p{
     cursor: pointer;
     text-transform: uppercase;
@@ -63,6 +66,7 @@
         border-bottom:none;
         background-color: transparent;
         animation: none;
+        display: flex;
         flex-direction: row;
         position: static;
         width: auto;

@@ -19,10 +19,22 @@
     color: white;
     text-align: justify;
     border: 3px solid rgb(62, 62, 62);
+    margin: 1rem 0;
 }
 .infoContainer img{
     width: 100%;
 }
 .textInfo{
     padding: 0.7rem;
+}
+
+@media(min-width:800px){
+    .infoContainer{
+        width: 90vw;
+        display: flex;
+        align-items: center;
+    }
+    .textInfo{
+        width: 80%;
+    }
 }
