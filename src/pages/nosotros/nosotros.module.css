@@ -15,7 +15,7 @@
 
 .infoContainer{
     width: 346px;
-    background-color: rgba(69, 4, 138, 0.787);
+    background-color: rgba(0, 70, 105, 0.819);
     color: white;
     text-align: justify;
     border: 3px solid rgb(62, 62, 62);
@@ -27,14 +27,56 @@
 .textInfo{
     padding: 0.7rem;
 }
-
+.titulos{
+    background-color: rgba(0, 70, 105, 0.819);
+    text-align: center;
+    border-top:2px solid rgba(255, 255, 255, .2);
+    padding: 1rem;
+    margin: 0.7rem auto;
+    border-top-left-radius: 70px;
+    position: relative;
+    width: 70vw;
+}
+.titulos::before{
+    content: '';
+    background-color: rgba(0, 0, 0, 0.759);
+    width: 90%;
+    height: 70%;
+    position: absolute;
+    left: 35px;
+    border-top-left-radius: 70px;
+    bottom: 0;
+    z-index: -1;
+    border-top: 2px solid black;
+}
+.ubicacionContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+.ubicacionContainer h2{
+    margin: 1rem 0;
+    color: white;
+    font-size: 1.8rem;
+    text-shadow: 0 3px 3px black;
+    font-family: var(--tituloFuente);
+}
+.ubicacionContainer iframe{
+    width: 70vw;
+}
 @media(min-width:800px){
     .infoContainer{
-        width: 90vw;
+        width: 70vw;
         display: flex;
         align-items: center;
     }
     .textInfo{
         width: 80%;
+    }
+    .textInfo{
+        padding: 1.7rem;
+        line-height: 1.7rem;
     }
 }

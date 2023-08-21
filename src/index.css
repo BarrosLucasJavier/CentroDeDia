@@ -16,7 +16,7 @@
 }
 body{
   font-family: var(--textFuente);
-  background-image: url('./assets/images/saludMental.png');
+  background-image: url('./assets/images/mentalBackground.png');
   background-repeat: no-repeat;
   background-position: 60%;
   background-size: cover;

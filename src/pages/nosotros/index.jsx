@@ -5,7 +5,9 @@ const Nosotros = () => {
     return (
         <main>
             <section className={styles.nosotrosContainer}>
-                <h2>Nosotros</h2>
+            <div className={styles.titulos}>
+                <h2 >Nosotros</h2>
+            </div>
                 <div className={styles.infoContainer}>
                     <img src={manos}/>
                     <div className={styles.textInfo}>
@@ -16,8 +18,11 @@ const Nosotros = () => {
                     </div>
                 </div>
             </section>
-            <section>
-
+            <section className={styles.ubicacionContainer}>
+                <div className={styles.titulos}>
+                    <h2>Encontranos en:</h2>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d775.8391181869264!2d-69.18985273033044!3d-38.93868395509541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzjCsDU2JzE5LjMiUyA2OcKwMTEnMjEuMiJX!5e0!3m2!1ses-419!2sar!4v1692627006769!5m2!1ses-419!2sar" width="355" height="450"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </section>
         </main>
     );
