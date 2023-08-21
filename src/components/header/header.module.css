@@ -42,6 +42,11 @@
 .menuContainer p{
     cursor: pointer;
     text-transform: uppercase;
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+    transition: all 0.5s;
+}
+.menuContainer p:hover{
+    border-bottom: 2px solid white;
 }
 
 @keyframes slideMenu{
