@@ -75,7 +75,7 @@
         "nombre":"Juego Encastre animales acuáticos",
         "categoria":"Encastre",
         "descripcion":"Coloca las piezas de animales acuáticos en su lugar.",
-        "precio":1200,
+        "precio":1500,
         "imagen": "product11.jpeg",
         "vendido":false
     },
@@ -141,6 +141,22 @@
         "descripcion":"Rompecabezas con los departamentos como fichas encastrables",
         "precio":2500,
         "imagen": "product19.jpeg",
+        "vendido":false
+    },
+    {
+        "nombre":"Rompecabezas de Abeja",
+        "categoria":"Rompecabezas",
+        "descripcion":"Rompecabezas de 9 piezas",
+        "precio":1500,
+        "imagen": "product21.jpeg",
+        "vendido":false
+    },
+    {
+        "nombre":"Rompecabezas de Ratón",
+        "categoria":"Rompecabezas",
+        "descripcion":"Rompecabezas de 12 piezas",
+        "precio":1500,
+        "imagen": "product22.jpeg",
         "vendido":false
     }
 
