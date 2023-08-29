@@ -14,7 +14,8 @@
 }
 
 .infoContainer{
-    width: 346px;
+    width: 80vw;
+    max-width: 1200px;
     background-color: rgba(0, 70, 105, 0.819);
     color: white;
     text-align: justify;
@@ -66,10 +67,52 @@
 .ubicacionContainer iframe{
     width: 70vw;
 }
+.imgContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "uno"
+                        "dos"
+                        "tres";
+    gap: 0.5rem;
+}
+.uno{
+    grid-area: uno;
+    overflow: hidden;
+}
+.dos{
+    grid-area: dos;
+    overflow: hidden;
+}
+
+.tres{
+    grid-area: tres;
+    overflow: hidden;
+    
+}
+.tres img, .dos img, .uno img{
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
 @media(min-width:800px){
+    .imgContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 350px;
+        grid-template-areas: "uno uno"
+                            "dos tres";
+        gap: 0.5rem;
+    }
+    .tres img, .dos img, .uno img{
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
     .infoContainer{
         width: 70vw;
         display: flex;
+        flex-direction: column;
         align-items: center;
     }
     .textInfo{

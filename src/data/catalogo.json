@@ -158,6 +158,62 @@
         "precio":1500,
         "imagen": "product22.jpeg",
         "vendido":false
+    },
+    {
+        "nombre":"Imitando siluetas",
+        "categoria":"Juego",
+        "descripcion":"Usando palitos de madera podrás imitar la figura de la ficha que te toque. Diviértete armando las diferentes figuras.",
+        "precio":"",
+        "imagen": "product23.jpeg",
+        "vendido":false
+    },
+    {
+        "nombre":"Caza Moscas",
+        "categoria":"Juego",
+        "descripcion":"Utilizando una paleta imantada podrás cazar simpáticas moscas de diferentes colores.",
+        "precio":"",
+        "imagen": "product24.jpeg",
+        "vendido":false
+    },
+    {
+        "nombre":"Formas y colores",
+        "categoria":"Rompecabezas",
+        "descripcion":"Figuras de madera con distintas formas y colores para jugar libremente.",
+        "precio":"",
+        "imagen": "product25.jpeg",
+        "vendido":false
+    },
+    {
+        "nombre":"Imitando Formas",
+        "categoria":"Juego",
+        "descripcion":"Fichas con distintas formas y colores para que puedas imitar con palitos de madera de colores.",
+        "precio":"",
+        "imagen": "product26.jpeg",
+        "vendido":false
+    },
+    {
+        "nombre":"Pescando Ando",
+        "categoria":"Juego",
+        "descripcion":"Juego de cañas de pescar con imán para que puedas atrapar distintos colores de peces.",
+        "precio":"",
+        "imagen": "product27.jpeg",
+        "vendido":false
+    },
+    {
+        "nombre":"Rompecabezas de animales",
+        "categoria":"Rompecabezas",
+        "descripcion":"Rompecabezas de 2 piezas con motivos de animales varios",
+        "precio":"",
+        "imagen": "product28.jpeg",
+        "vendido":false
+    },
+    {
+        "nombre":"Payaso",
+        "categoria":"Rompecabezas",
+        "descripcion":"Coloca broches en la cabeza del payaso",
+        "precio":"",
+        "imagen": "product29.jpeg",
+        "vendido":false
     }
 
 ]
