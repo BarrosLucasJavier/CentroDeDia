@@ -29,7 +29,7 @@
         "descripcion":"El tangram es un juego chino muy antiguo, que consiste en formar siluetas de figuras con las siete piezas dadas sin solaparlas",
         "precio":800,
         "imagen": "product4.jpeg",
-        "vendido":false
+        "vendido":true
     },
     {
         "nombre":"Busca Caminos Grande",
@@ -163,7 +163,7 @@
         "nombre":"Imitando siluetas",
         "categoria":"Juego",
         "descripcion":"Usando palitos de madera podrás imitar la figura de la ficha que te toque. Diviértete armando las diferentes figuras.",
-        "precio":"",
+        "precio":"3000",
         "imagen": "product23.jpeg",
         "vendido":false
     },
@@ -171,7 +171,7 @@
         "nombre":"Imitando Formas",
         "categoria":"Juego",
         "descripcion":"Fichas con distintas formas y colores para que puedas imitar con palitos de madera de colores.",
-        "precio":"",
+        "precio":"3000",
         "imagen": "product26.jpeg",
         "vendido":false
     },
@@ -181,6 +181,46 @@
         "descripcion":"Rompecabezas de 2 piezas con motivos de animales varios",
         "precio":"",
         "imagen": "product28.jpeg",
+        "vendido":true
+    },
+    {
+        "nombre":"Rompecabezas mapa Argentina",
+        "categoria":"Rompecabezas",
+        "descripcion":"Mapa de Argentina con piezas por cada provincia",
+        "precio":"3500",
+        "imagen": "product30.jpeg",
+        "vendido":false
+    },
+    {
+        "nombre":"Serie numérica",
+        "categoria":"Rompecabezas",
+        "descripcion":"Tablero con espacios en blanco para completar la serie numérica hasta el número 20 con fichas",
+        "precio":"2000",
+        "imagen": "product31.jpeg",
+        "vendido":false
+    },
+    {
+        "nombre":"Rompecabezas dinosaurios, serie numérica",
+        "categoria":"Rompecabezas",
+        "descripcion":"Tablero con cuadricula numerada, para colocar las piezas en su respectivo número",
+        "precio":"2000",
+        "imagen": "product32.jpeg",
+        "vendido":false
+    },
+    {
+        "nombre":"Serie numérica encastre",
+        "categoria":"Rompecabezas",
+        "descripcion":"Piezas divididas en dos partes con número e imagen representativa de la cantidad. Hasta el número 10",
+        "precio":"2000",
+        "imagen": "product33.jpeg",
+        "vendido":false
+    },
+    {
+        "nombre":"Juego lectoescritura vocales",
+        "categoria":"Rompecabezas",
+        "descripcion":"Tablero con nombre de la imagen a completar con fichas de letras",
+        "precio":"2500",
+        "imagen": "product34.jpeg",
         "vendido":false
     }
 

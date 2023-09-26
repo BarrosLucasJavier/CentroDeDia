@@ -35,6 +35,12 @@
     animation: rotar 2s ease-in-out infinite alternate;
     
 }
+.soldOutMessage{
+    padding: 1rem 0;
+    color: black;
+    font-weight: bold;
+    text-shadow: none;
+}
 @keyframes rotar {
     from{
         transform: rotate(-15deg);

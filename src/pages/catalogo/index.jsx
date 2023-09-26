@@ -13,6 +13,7 @@ const CatalogoPage = () => {
                 <p>Los juguete son creados por los usuarios del centro, en madera.</p>
                 <img className={styles.sol} src={sol}/>
                 <p>Podes acercarte a nuestra dirección Entre Ríos 450 del barrio Otaño para comprar.</p>
+                <p className={styles.soldOutMessage}>Los productos sin stock se pueden encargar para su fabricación</p>
             </div>
 
             <Catalogo/>

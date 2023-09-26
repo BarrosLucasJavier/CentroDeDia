@@ -17,8 +17,9 @@ const CardProduct = ({ product }) => {
                 <img src={product.imagen}/>
             </div>
         )}
-            <div>
+            <div className={styles.imgContainer}>
                 <img className={styles.productImg} onClick={()=>setModalOpen(!modalOpen)} src={product.imagen}/>
+                {product.vendido && (<div className={styles.soldOut}>Por Encargo</div>)}
             </div>
             <div className={styles.cardInfo}>
                 <h3>{product.nombre}</h3>

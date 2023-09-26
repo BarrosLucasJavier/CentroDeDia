@@ -52,6 +52,21 @@
     font-size: 2rem;
     cursor: pointer;
 }
+.soldOut{
+    width: 100%;
+    background-color: rgb(196, 234, 27);
+    position: absolute;
+    top: 15px;
+    padding: 0.5rem 0; 
+    color: black;
+    font-weight: bolder;
+    box-shadow: 0 2px 5px black;
+    border: thin solid grey;
+    text-align: center;
+}
+.imgContainer{
+    position: relative;
+}
 @media (min-width:700px){
     .cardContainer{
         width: 350px;
