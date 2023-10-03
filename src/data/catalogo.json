@@ -83,7 +83,7 @@
         "nombre":"Rompecabezas de Mariposas",
         "categoria":"Rompecabezas",
         "descripcion":"Rompecabezas de 8 piezas de 15cm x 20cm",
-        "precio":800,
+        "precio":1000,
         "imagen": "product12.jpeg",
         "vendido":false
     },
@@ -221,6 +221,22 @@
         "descripcion":"Tablero con nombre de la imagen a completar con fichas de letras",
         "precio":"2500",
         "imagen": "product34.jpeg",
+        "vendido":false
+    },
+    {
+        "nombre":"Silabario",
+        "categoria":"Rompecabezas",
+        "descripcion":"Fichas con palabras divididas en sílabas, que sirve para enseñar a leer",
+        "precio":"1000",
+        "imagen": "product35.jpg",
+        "vendido":false
+    },
+    {
+        "nombre":"Encastre de vocales",
+        "categoria":"Rompecabezas",
+        "descripcion":"Juego de piezas donde las imagenes encastran con la vocal que corresponde",
+        "precio":"1000",
+        "imagen": "product36.jpg",
         "vendido":false
     }
 
