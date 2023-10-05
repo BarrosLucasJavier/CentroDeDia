@@ -238,6 +238,46 @@
         "precio":"1000",
         "imagen": "product36.jpg",
         "vendido":false
+    },
+    {
+        "nombre":"Tangram pequeño",
+        "categoria":"Rompecabezas",
+        "descripcion":"El tangram es un juego chino muy antiguo, que consiste en formar siluetas de figuras con las siete piezas dadas sin solaparlas",
+        "precio":1000,
+        "imagen": "product37.jpg",
+        "vendido":false
+    },
+    {
+        "nombre":"Rompecabezas de Sapito",
+        "categoria":"Rompecabezas",
+        "descripcion":"Rompecabezas de 16 piezas",
+        "precio":2000,
+        "imagen": "product38.jpg",
+        "vendido":false
+    },
+    {
+        "nombre":"Gatito Equilibrista",
+        "categoria":"Destreza",
+        "descripcion":"Juego de destreza motora",
+        "precio":2500,
+        "imagen": "product39.jpg",
+        "vendido":false
+    },
+    {
+        "nombre":"Tangram Grande",
+        "categoria":"Rompecabezas",
+        "descripcion":"El tangram es un juego chino muy antiguo, que consiste en formar siluetas de figuras con las 9 piezas dadas sin solaparlas",
+        "precio":2500,
+        "imagen": "product40.jpg",
+        "vendido":false
+    },
+    {
+        "nombre":"Rompecabezas de Ratón y Queso",
+        "categoria":"Rompecabezas",
+        "descripcion":"Rompecabezas de 16 piezas",
+        "precio":2000,
+        "imagen": "product41.jpg",
+        "vendido":false
     }
 
 ]
