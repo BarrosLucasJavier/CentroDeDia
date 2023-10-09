@@ -13,7 +13,7 @@
         "descripcion":"Tablero con distintos dispositivos diseñados para estimular",
         "precio":4500,
         "imagen": "product2.jpeg",
-        "vendido":false
+        "vendido":true
     },
     {
         "nombre":"Acomodando Colores",
@@ -21,7 +21,7 @@
         "descripcion":"El juego consiste en acomodar las 7 piezas de tal modo que los colores coincidan",
         "precio":1800,
         "imagen": "product3.jpeg",
-        "vendido":false
+        "vendido":true
     },
     {
         "nombre":"Tangram clásico",
@@ -61,7 +61,7 @@
         "descripcion":"Diversion de desarrollo de habilidades: ¡croquet es un gran juego para mejorar la concentracion, la paciencia y la precision! ",
         "precio":4000,
         "imagen": "product8.jpeg",
-        "vendido":false
+        "vendido":true
     },
     {
         "nombre":"Ordenando Colores",
@@ -93,13 +93,13 @@
         "descripcion":"Color Violeta y verde, con fichas en forma de vaquitas de San Antonio",
         "precio":1000,
         "imagen": "product13.jpeg",
-        "vendido":false
+        "vendido":true
     },
     {
         "nombre":"Rompecabezas de Globos",
         "categoria":"Rompecabezas",
         "descripcion":"Rompecabezas de 9 piezas de 27cm x 25cm",
-        "precio":1200,
+        "precio":2000,
         "imagen": "product14.jpeg",
         "vendido":false
     },
@@ -109,7 +109,7 @@
         "descripcion":"Color Rosa y Azul, con fichas en forma de vaquitas de San Antonio",
         "precio":1000,
         "imagen": "product15.jpeg",
-        "vendido":false
+        "vendido":true
     },
     {
         "nombre":"Ta Te Ti",
@@ -117,7 +117,7 @@
         "descripcion":"Color Rojo y Verde, con fichas en forma de vaquitas de San Antonio",
         "precio":1000,
         "imagen": "product16.jpeg",
-        "vendido":false
+        "vendido":true
     },
     {
         "nombre":"Ta Te Ti",
@@ -125,7 +125,7 @@
         "descripcion":"Color Rojo y Naranja, con fichas en forma de vaquitas de San Antonio",
         "precio":1000,
         "imagen": "product17.jpeg",
-        "vendido":false
+        "vendido":true
     },
     {
         "nombre":"Aprendo El Abecedario",
@@ -133,7 +133,7 @@
         "descripcion":"Con este juego los más pequeños aprenderán a distinguir la grafía de cada letra, asociar letras a imágenes y a la vez ampliarán su vocabulario.",
         "precio":2500,
         "imagen": "product18.jpeg",
-        "vendido":false
+        "vendido":true
     },
     {
         "nombre":"Mapa Neuquén",
@@ -141,7 +141,7 @@
         "descripcion":"Rompecabezas con los departamentos como fichas encastrables",
         "precio":2500,
         "imagen": "product19.jpeg",
-        "vendido":false
+        "vendido":true
     },
     {
         "nombre":"Rompecabezas de Abeja",
@@ -157,7 +157,7 @@
         "descripcion":"Rompecabezas de 12 piezas",
         "precio":1500,
         "imagen": "product22.jpeg",
-        "vendido":false
+        "vendido":true
     },
     {
         "nombre":"Imitando siluetas",
@@ -165,7 +165,7 @@
         "descripcion":"Usando palitos de madera podrás imitar la figura de la ficha que te toque. Diviértete armando las diferentes figuras.",
         "precio":"3000",
         "imagen": "product23.jpeg",
-        "vendido":false
+        "vendido":true
     },
     {
         "nombre":"Imitando Formas",
@@ -173,7 +173,7 @@
         "descripcion":"Fichas con distintas formas y colores para que puedas imitar con palitos de madera de colores.",
         "precio":"3000",
         "imagen": "product26.jpeg",
-        "vendido":false
+        "vendido":true
     },
     {
         "nombre":"Rompecabezas de animales",
@@ -189,7 +189,7 @@
         "descripcion":"Mapa de Argentina con piezas por cada provincia",
         "precio":"3500",
         "imagen": "product30.jpeg",
-        "vendido":false
+        "vendido":true
     },
     {
         "nombre":"Serie numérica",
@@ -197,7 +197,7 @@
         "descripcion":"Tablero con espacios en blanco para completar la serie numérica hasta el número 20 con fichas",
         "precio":"2000",
         "imagen": "product31.jpeg",
-        "vendido":false
+        "vendido":true
     },
     {
         "nombre":"Rompecabezas dinosaurios, serie numérica",
@@ -205,7 +205,7 @@
         "descripcion":"Tablero con cuadricula numerada, para colocar las piezas en su respectivo número",
         "precio":"2000",
         "imagen": "product32.jpeg",
-        "vendido":false
+        "vendido":true
     },
     {
         "nombre":"Serie numérica encastre",
@@ -213,7 +213,7 @@
         "descripcion":"Piezas divididas en dos partes con número e imagen representativa de la cantidad. Hasta el número 10",
         "precio":"2000",
         "imagen": "product33.jpeg",
-        "vendido":false
+        "vendido":true
     },
     {
         "nombre":"Juego lectoescritura vocales",
@@ -221,7 +221,7 @@
         "descripcion":"Tablero con nombre de la imagen a completar con fichas de letras",
         "precio":"2500",
         "imagen": "product34.jpeg",
-        "vendido":false
+        "vendido":true
     },
     {
         "nombre":"Silabario",
@@ -237,7 +237,7 @@
         "descripcion":"Juego de piezas donde las imagenes encastran con la vocal que corresponde",
         "precio":"1000",
         "imagen": "product36.jpg",
-        "vendido":false
+        "vendido":true
     },
     {
         "nombre":"Tangram pequeño",
@@ -253,7 +253,7 @@
         "descripcion":"Rompecabezas de 16 piezas",
         "precio":2000,
         "imagen": "product38.jpg",
-        "vendido":false
+        "vendido":true
     },
     {
         "nombre":"Gatito Equilibrista",
@@ -277,6 +277,14 @@
         "descripcion":"Rompecabezas de 16 piezas",
         "precio":2000,
         "imagen": "product41.jpg",
+        "vendido":true
+    },
+    {
+        "nombre":"Rompecabezas Multiplicación",
+        "categoria":"Rompecabezas",
+        "descripcion":"En una tabla cuadriculada hay multiplicaciones simples, fichas de un rompecabezas con números como resultado de esa multiplicación, al acomodarlos se forma la figura.",
+        "precio":2000,
+        "imagen": "product43.jpg",
         "vendido":false
     }
 
