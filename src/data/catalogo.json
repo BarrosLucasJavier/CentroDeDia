@@ -141,7 +141,7 @@
         "descripcion":"Rompecabezas con los departamentos como fichas encastrables",
         "precio":2500,
         "imagen": "product19.jpeg",
-        "vendido":true
+        "vendido":false
     },
     {
         "nombre":"Rompecabezas de Abeja",
@@ -189,7 +189,7 @@
         "descripcion":"Mapa de Argentina con piezas por cada provincia",
         "precio":"3500",
         "imagen": "product30.jpeg",
-        "vendido":true
+        "vendido":false
     },
     {
         "nombre":"Serie numérica",
@@ -237,7 +237,7 @@
         "descripcion":"Juego de piezas donde las imagenes encastran con la vocal que corresponde",
         "precio":"1000",
         "imagen": "product36.jpg",
-        "vendido":true
+        "vendido":false
     },
     {
         "nombre":"Tangram pequeño",
