@@ -99,7 +99,7 @@
         "nombre":"Rompecabezas de Globos",
         "categoria":"Rompecabezas",
         "descripcion":"Rompecabezas de 9 piezas de 27cm x 25cm",
-        "precio":2000,
+        "precio":2500,
         "imagen": "product14.jpeg",
         "vendido":false
     },
@@ -235,7 +235,7 @@
         "nombre":"Encastre de vocales",
         "categoria":"Rompecabezas",
         "descripcion":"Juego de piezas donde las imagenes encastran con la vocal que corresponde",
-        "precio":"1000",
+        "precio":"1500",
         "imagen": "product36.jpg",
         "vendido":false
     },
@@ -243,7 +243,7 @@
         "nombre":"Tangram pequeño",
         "categoria":"Rompecabezas",
         "descripcion":"El tangram es un juego chino muy antiguo, que consiste en formar siluetas de figuras con las siete piezas dadas sin solaparlas",
-        "precio":1000,
+        "precio":1500,
         "imagen": "product37.jpg",
         "vendido":false
     },
@@ -285,6 +285,78 @@
         "descripcion":"En una tabla cuadriculada hay multiplicaciones simples, fichas de un rompecabezas con números como resultado de esa multiplicación, al acomodarlos se forma la figura.",
         "precio":2000,
         "imagen": "product43.jpg",
+        "vendido":false
+    },
+    {
+        "nombre":"Bloques",
+        "categoria":"Rompecabezas",
+        "descripcion":"",
+        "precio":3000,
+        "imagen": "product44.jpg",
+        "vendido":false
+    },
+    {
+        "nombre":"Cerdito",
+        "categoria":"Rompecabezas",
+        "descripcion":"",
+        "precio":5000,
+        "imagen": "product45.jpg",
+        "vendido":false
+    },
+    {
+        "nombre":"Aves",
+        "categoria":"Rompecabezas",
+        "descripcion":"",
+        "precio":1500,
+        "imagen": "product46.jpg",
+        "vendido":false
+    },
+    {
+        "nombre":"",
+        "categoria":"Rompecabezas",
+        "descripcion":"",
+        "precio":2000,
+        "imagen": "product47.jpg",
+        "vendido":false
+    },
+    {
+        "nombre":"Elefantes",
+        "categoria":"Rompecabezas",
+        "descripcion":"",
+        "precio":2500,
+        "imagen": "product48.jpg",
+        "vendido":false
+    },
+    {
+        "nombre":"Números",
+        "categoria":"Rompecabezas",
+        "descripcion":"",
+        "precio":3000,
+        "imagen": "product49.jpg",
+        "vendido":false
+    },
+    {
+        "nombre":"Manuelita",
+        "categoria":"Rompecabezas",
+        "descripcion":"",
+        "precio":2000,
+        "imagen": "product50.jpg",
+        "vendido":false
+    },
+    {
+        "nombre":"Rompecabezas",
+        "categoria":"Rompecabezas",
+        "descripcion":"",
+        "precio":1500,
+        "imagen": "product51.jpg",
+        "vendido":false
+    },
+    {
+        "nombre":"Elefantes azul",
+        "categoria":"Rompecabezas",
+        "descripcion":"",
+        "precio":2500,
+        "imagen": "product52.jpg",
         "vendido":false
     }
 
