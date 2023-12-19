@@ -24,7 +24,7 @@ const CardProduct = ({ product }) => {
             <div className={styles.cardInfo}>
                 <h3>{product.nombre}</h3>
                 <p>{product.descripcion}</p>
-                <span>Precio: $ {product.precio}</span>
+                {/* <span>Precio: $ {product.precio}</span> */}
             </div>
         </div>
     );

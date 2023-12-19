@@ -21,7 +21,7 @@
 .cardInfo{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     gap: 0.7rem;
     height: 170px;
